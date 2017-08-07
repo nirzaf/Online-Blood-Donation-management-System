@@ -1,0 +1,69 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Admin_MasterPage" %>
+<%@ Register Src="UserControls/FotterMenuControl.ascx" TagName="FotterMenuControl"
+    TagPrefix="uc8" %>
+<%@ Register Src="UserControls/FooterControl.ascx" TagName="FooterControl" TagPrefix="uc2" %>
+<%@ Register Src="UserControls/LeftControl.ascx" TagName="LeftControl" TagPrefix="uc6" %>
+<%@ Register Src="UserControls/MenuUserControl.ascx" TagName="MenuUserControl" TagPrefix="uc5" %>
+<%@ Register Src="UserControls/HeaderControl.ascx" TagName="HeaderControl" TagPrefix="uc4" %>
+<%@ Register Src="UserControls/HeaderControl.ascx" TagName="HeaderControl" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>BLOOD BEQUEATH FEDERAL AGENT</title>
+</head>
+<body style="margin: 0">
+    <form id="form1" runat="server" enctype="multipart/form-data">
+        <div>
+            <div style="text-align: center">
+                <table style="width: 100%">
+                    <tr>
+                        <td style="width: 100%; height: 142px;" align="right">
+                            <uc4:HeaderControl ID="HeaderControl" runat="server" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Large" Width="160px"></asp:Label></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 100%">
+            <tr>
+                <td style="width: 173px; height: 198px" valign="top">
+                    <uc6:LeftControl ID="LeftControl1" runat="server" />
+                </td>
+                <td style="width: 66px; height: 198px" valign="top">
+                    <asp:Image ID="Image1" runat="server" Height="66px" ImageAlign="Top" ImageUrl="~/Admin/Images/image001.png"
+                        Width="75px" /></td>
+                <td style="width: 755px; height: 198px" valign="top">
+                    <div style="height: 1381px">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" valign="top" rowspan="">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+            </tr>
+        </table>
+                    <uc2:FooterControl ID="FooterControl1" runat="server" />
+    </form>
+</body>
+</html>

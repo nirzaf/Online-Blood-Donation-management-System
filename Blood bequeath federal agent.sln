@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "E:\...\Blood bequeath federal agent\", "Blood bequeath federal agent\", "{484DC031-BE8F-4969-92BB-9E7959A05BDF}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/Blood bequeath federal agent"
+		Debug.AspNetCompiler.PhysicalPath = "Blood bequeath federal agent\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Blood bequeath federal agent\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Blood bequeath federal agent"
+		Release.AspNetCompiler.PhysicalPath = "Blood bequeath federal agent\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Blood bequeath federal agent\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1418"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/Blood bequeath federal agent"
+		Debug.AspNetCompiler.PhysicalPath = "Blood bequeath federal agent\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Blood bequeath federal agent\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Blood bequeath federal agent"
+		Release.AspNetCompiler.PhysicalPath = "Blood bequeath federal agent\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Blood bequeath federal agent\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1418"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{484DC031-BE8F-4969-92BB-9E7959A05BDF}.Debug|.NET.ActiveCfg = Debug|.NET
+		{484DC031-BE8F-4969-92BB-9E7959A05BDF}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

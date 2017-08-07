@@ -1,0 +1,56 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="Admin_MasterPage" %>
+<%@ Register Src="UserControls/LoginLogoutWebUserControl.ascx" TagName="LoginLogoutWebUserControl"
+    TagPrefix="uc5" %>
+<%@ Register Src="UserControls/FotterMenuControl.ascx" TagName="FotterMenuControl"
+    TagPrefix="uc4" %>
+<%@ Register Src="../UserControls/FotterMenuControl.ascx" TagName="FotterMenuControl"
+    TagPrefix="uc3" %>
+<%@ Register Src="UserControls/LeftPaneControl.ascx" TagName="LeftPaneControl" TagPrefix="uc7" %>
+<%@ Register Src="UserControls/RightPanelControl.ascx" TagName="RightPanelControl"
+    TagPrefix="uc6" %>
+
+<%@ Register Src="UserControls/FooterControl.ascx" TagName="FooterControl" TagPrefix="uc2" %>
+
+<%@ Register Src="UserControls/HeaderControl.ascx" TagName="HeaderControl" TagPrefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>BLOOD BEQUEATH FEDERAL AGENT</title>
+     <link rel="stylesheet" type="text/css" />
+</head>
+<body style="margin:0">
+   
+    <form id="form1" runat="server">
+       <div>
+        <div style="text-align: center">
+            <table width="100%" align="center" >
+                <tr>
+                    <td align="right" colspan="2">
+                        <uc1:HeaderControl ID="HeaderControl1" runat="server" />
+                        <uc5:LoginLogoutWebUserControl ID="LoginLogoutWebUserControl1" runat="server" />
+                        &nbsp;<asp:Label ID="Label1" runat="server" Text="Label" Width="108px" Font-Bold="True" Font-Size="Large" ></asp:Label></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="width: 15%">
+                    <uc7:LeftPaneControl ID="LeftPaneControl1" runat="server" />
+                    </td>
+                    <td align="left" valign="top" style="width:85%">
+                    <div style="height:390px">
+                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    </div>
+                      </td>
+                </tr>
+                <tr>
+                    <td align="left" colspan="2" valign="top" style="height: 46px">
+                    <uc2:FooterControl ID="FooterControl1" runat="server" />
+                                         </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

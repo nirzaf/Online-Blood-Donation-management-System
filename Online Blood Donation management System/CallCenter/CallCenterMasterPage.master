@@ -1,0 +1,79 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CallCenterMasterPage.master.cs" Inherits="Admin_MasterPage" %>
+<%@ Register Src="UserControls/LoginLogoutWebUserControl.ascx" TagName="LoginLogoutWebUserControl"
+    TagPrefix="uc8" %>
+<%@ Register Src="../Admin/UserControls/HeaderControl.ascx" TagName="HeaderControl"
+    TagPrefix="uc5" %>
+<%@ Register Src="UserControls/FotterMenuControl.ascx" TagName="FotterMenuControl"
+    TagPrefix="uc4" %>
+<%@ Register Src="../UserControls/FotterMenuControl.ascx" TagName="FotterMenuControl"
+    TagPrefix="uc3" %>
+<%@ Register Src="UserControls/LeftPaneControl.ascx" TagName="LeftPaneControl" TagPrefix="uc7" %>
+<%@ Register Src="UserControls/RightPanelControl.ascx" TagName="RightPanelControl"
+    TagPrefix="uc6" %>
+
+<%@ Register Src="UserControls/FooterControl.ascx" TagName="FooterControl" TagPrefix="uc2" %>
+
+<%@ Register Src="UserControls/HeaderControl.ascx" TagName="HeaderControl" TagPrefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>BLOOD BEQUEATH FEDERAL AGENT</title>
+     <link rel="stylesheet" type="text/css" />
+</head>
+<body topmargin="0" leftmargin="0" >
+   
+    <form id="form1" runat="server">
+       <div>
+        <div style="text-align: center">
+            <table align="center">
+                <tr>
+                    <td align="right" colspan="2">
+                        <uc5:HeaderControl ID="HeaderControl2" runat="server" />
+                        &nbsp; &nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label1" runat="server" Text="Label" Width="108px" Font-Bold="True" Font-Size="Large" ></asp:Label></td>
+                </tr>
+                <tr>
+                    <td align="right" colspan="2" style="background-color: #ffcc66">
+                        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Width="950px" Font-Bold="True" Font-Size="Medium" ForeColor="Gray">
+                            <Items>
+                                <asp:MenuItem NavigateUrl="~/CallCenter/CallCenterHome.aspx" Text="Home" Value="Home">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/CallCenter/BloodDonationDetail.aspx" Text="Blood Donation Detail"
+                                    Value="Blood Donation Detail"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/CallCenter/Search/SearchBloodDonor.aspx" Text="Search For Donor"
+                                    Value="Seach For Organization"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/CallCenter/Search/ShowBloodRequest.aspx" Text="Show Request For Blood"
+                                    Value="Request For Blood"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/CallCenter/ChangePassword.aspx" Text="Change Password"
+                                    Value="Account Detail"></asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" colspan="2">
+                        <uc8:LoginLogoutWebUserControl ID="LoginLogoutWebUserControl1" runat="server" />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                        <uc6:RightPanelControl ID="RightPanelControl1" runat="server" />
+                    </td>
+                    <td align="left" valign="top">
+                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                      </td>
+                </tr>
+                <tr>
+                    <td align="left" colspan="2" style="height: 46px" valign="top">
+                    <uc2:FooterControl ID="FooterControl1" runat="server" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

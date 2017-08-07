@@ -1,0 +1,5 @@
+ <asp:GridView runat="server" AutoGenerateColumns="False" BackColor="MistyRose" ForeColor="Red">
+                        <HeaderStyle BackColor="#FF8080" Font-Bold="True" Font-Names="Book Antiqua" ForeColor="White" />
+                        <AlternatingRowStyle BackColor="SeaShell" />
+                    </asp:GridView>
+                     

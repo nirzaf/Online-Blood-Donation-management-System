@@ -1,0 +1,76 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="OrganizationMasterPage.master.cs" Inherits="Registration_OrganizationMasterPage" %>
+<%@ Register Src="UserControls/LoginLogoutWebUserControl.ascx" TagName="LoginLogoutWebUserControl"
+    TagPrefix="uc5" %>
+
+<%@ Register Src="../Admin/UserControls/FooterControl.ascx" TagName="FooterControl"
+    TagPrefix="uc3" %>
+<%@ Register Src="UserControls/FotterMenuControl.ascx" TagName="FotterMenuControl"
+    TagPrefix="uc4" %>
+<%@ Register Src="../Admin/UserControls/LeftPaneControl.ascx" TagName="LeftPaneControl"
+    TagPrefix="uc1" %>
+<%@ Register Src="../Admin/UserControls/RightPanelControl.ascx" TagName="RightPanelControl"
+    TagPrefix="uc2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>BLOOD BEQUEATH FEDERAL AGENT</title>
+</head>
+<body topmargin="0" leftmargin="0">
+     <form id="form1" runat="server">
+    <div>
+        <table align="center" style="width: 100%">
+            <tr>
+                <td align="center" style="width: 6px">
+                    <asp:Image ID="Image2" runat="server" BackColor="White" Height="90px" ImageUrl="~/Images/image001.png"
+                        Width="264px" /></td>
+                <td align="center" style="height: 84px; background-color: #ffffff; font-weight: bold; font-size: 28pt; color: #ff3333; font-family: Verdana, 'Arial Unicode MS', 'Comic Sans MS';">
+                    <span style="font-family: Comic Sans MS">
+                    BLOOD BEQUEATH FEDERAL AGENT</span></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2" style="height: 40px; background-color: #ffcc66">
+                    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Width="950px" Font-Bold="True" Font-Size="Medium" ForeColor="Gray">
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/Organization/OrganizationHome.aspx" Text="Home" Value="Home">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Organization/DonorSearchPage.aspx" Text="Seach For Donor"
+                                Value="Seach For Organization"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Organization/OrganizationAccountDetail.aspx" Text="Account Detail"
+                                Value="Account Detail"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Organization/MakeRequestForBlood.aspx" Text="Request For Blood"
+                                Value="Request For Blood"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" colspan="2">
+                    <uc5:LoginLogoutWebUserControl ID="LoginLogoutWebUserControl1" runat="server" />
+                </td>
+            </tr>
+        </table>
+    </div>
+        <table style="width: 100%">
+            <tr>
+                <td valign="top" style="width: 56px" >
+                 <uc2:RightPanelControl ID="RightPanelControl1" runat="server" />
+                </td>
+                <td valign="top">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td valign="top" align="right" >
+                    <asp:Image ID="Image1" runat="server" Height="221px" ImageUrl="~/Images/Logo.gif"
+                        Width="106px" /></td>
+            </tr>
+            <tr>
+                <td colspan="3" valign="top" >
+                    <uc3:FooterControl ID="FooterControl1" runat="server" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="DonorMasterPage.master.cs" Inherits="Registration_DonorMasterPage" %>
+<%@ Register Src="UserControls/LoginLogoutWebUserControl.ascx" TagName="LoginLogoutWebUserControl"
+    TagPrefix="uc6" %>
+<%@ Register Src="UserControls/CoomonUserControl.ascx" TagName="CoomonUserControl"
+    TagPrefix="uc5" %>
+<%@ Register Src="../UserControls/FotterMenuControl.ascx" TagName="FotterMenuControl"
+    TagPrefix="uc4" %>
+<%@ Register Src="UserControls/LeftControl.ascx" TagName="LeftControl" TagPrefix="uc2" %>
+<%@ Register Src="UserControls/FooterControl.ascx" TagName="FooterControl" TagPrefix="uc3" %>
+<%@ Register Src="UserControls/HeaderControl.ascx" TagName="HeaderControl" TagPrefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>BLOOD BEQUEATH FEDERAL AGENT</title>
+    
+</head>
+<body topmargin="0" leftmargin="0">
+    <form id="form1" runat="server">
+    <div>
+        <table align="center" width="100">
+            <tr>
+                <td style="height: 130px; width: 961px;" >
+                    <uc1:HeaderControl ID="HeaderControl1" runat="server" />
+                    &nbsp;&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="background-color: #ffcc66;">
+                    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Width="950px" Font-Bold="True" Font-Size="Medium" ForeColor="Gray">
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/Donor/DonorHome.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Donor/OrganizationSearchPage.aspx" Text="Seach For Organization"
+                                Value="Seach For Organization"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Donor/DonorAccountDetail.aspx" Text="Account Detail"
+                                Value="Account Detail"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Donor/MakeRequestForBlood.aspx" Text="Request For Blood"
+                                Value="Request For Blood"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" style="width: 961px">
+                    <uc6:LoginLogoutWebUserControl ID="LoginLogoutWebUserControl1" runat="server" />
+                </td>
+            </tr>
+        </table>
+    </div>
+                    <table align="center" width="100%">
+                        <tr>
+                            <td valign="top" style="width: 307px" >
+                                <uc2:LeftControl ID="LeftControl1" runat="server" />
+                            </td>
+                            <td valign="top" >
+                            <div style="height:389px">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center" >
+                               <uc3:FooterControl ID="FooterControl1" runat="server" />
+                              
+                            </td>
+                        </tr>
+                    </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="AddCountry" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\AddCountry.cs</FileName>
+      <HashCode>AAAACIAIAAAIAAEAAAAAAAAAAAAAAAAAAgACAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddressBusinessLayer" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\AddressBusinessLayer.cs</FileName>
+      <HashCode>BBEIAAABSAAAAEAAAAAAABAAAAAQAAAAAAACAQAQAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BloodDonationDetailBL" Collapsed="true">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\BloodDonationDetailBL.cs</FileName>
+      <HashCode>AAQAAAAEAAAAAABgAAAAQAQggAAEIIBBAAACQQIgBAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BloodGroupBusinessLayer" Collapsed="true">
+    <Position X="27.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\BloodGroupBusinessLayer.cs</FileName>
+      <HashCode>IAQAAAAAAAAQAAAAABCAAAAQCAAAAAiAAAACADAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BloodRequestBL" Collapsed="true">
+    <Position X="34.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\BloodRequestBL.cs</FileName>
+      <HashCode>IAAAACAgACAAAAAqCFIASgRSAGIEAIAmAACDJAkgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BloodTypeBusinessLayer" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\BloodTypeBusinessLayer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAJAABACABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheckUser" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\CheckUser.cs</FileName>
+      <HashCode>ACAAABAAAAAAAAAAAQAAAAEAAAAAAAACkAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CityBusinessLayer" Collapsed="true">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\CityBusinessLayer.cs</FileName>
+      <HashCode>AAAAAIgAAAAAAAKAAAAAAAAAAAAAAAgQAgACAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Connection" Collapsed="true">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\Connection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DonationFrequency" Collapsed="true">
+    <Position X="36.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\DonationFrequency.cs</FileName>
+      <HashCode>IAAAACAAAAAQBAAAAgACAAAAAgAAAQAAAAECAAABDAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DonorPreferedOrganization" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\DonorPreferedOrganization.cs</FileName>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAQAAAAEAAAABAQCAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DonorPreferenceDayTime" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\DonorPreferenceDayTime.cs</FileName>
+      <HashCode>BAQAAAQFABEQkAAAAAAAAAAABAAAEAQAgAACAJAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeDetailBL" Collapsed="true">
+    <Position X="23" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\EmployeeDetailBL.cs</FileName>
+      <HashCode>gAACgAAAAKAAAAAgCAAAAAwAAAIEAAAiAAACIgAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FaqBusinessLayer" Collapsed="true">
+    <Position X="29.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\FaqBusinessLayer.cs</FileName>
+      <HashCode>AAABAgAgAAAAAQAAAAAAACAAAAAAAAAAAAACAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LocationBusinessLayer" Collapsed="true">
+    <Position X="38.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\LocationBusinessLayer.cs</FileName>
+      <HashCode>AAAAAAAAAAgAAiAAAAAAAAAAAAAAAAABgABCAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrganizationAccountBusinessLayer" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\OrganizationAccountBusinessLayer.cs</FileName>
+      <HashCode>EpQIAAoESCACAEk8FQAJDUUAAAtGAABSBgACApCQAqI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrganizationBusinessLayer" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\OrganizationBusinessLayer.cs</FileName>
+      <HashCode>AAAACAIAAAACAAAAABEgAAAAAAAAABAgAAASIAAAAIg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectOrgByLocation" Collapsed="true">
+    <Position X="25.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\SelectOrgByLocation.cs</FileName>
+      <HashCode>AAAIAAAACAAEAAAAAAAABAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBusinessLayer" Collapsed="true">
+    <Position X="32" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\StateBusinessLayer.cs</FileName>
+      <HashCode>AAAEAAAAACAAAAAAAAAAABIAAAAAAAAAAAECCAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserAccountBusinessLayer" Collapsed="true">
+    <Position X="41" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationBL\UserAccountBusinessLayer.cs</FileName>
+      <HashCode>EAAIgEIACCpCABm8hxAZzEEcQGJALIB2BAgCBhAAAII=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BDA.DAL.SqlHelper" Collapsed="true">
+    <Position X="43.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationDAL\SQLHelper.cs</FileName>
+      <HashCode>AACAAACAAAAAACAEABAAAEAAgAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BDA.DAL.SqlHelperParameterCache" Collapsed="true">
+    <Position X="45.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\BloodDonationDAL\SQLHelper.cs</FileName>
+      <HashCode>AEAAAAAAAECAAIAAAAAAAARAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>
