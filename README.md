@@ -9,8 +9,4 @@ The objective is to Help people who need to find a particular blood group donor,
 
 The invitation is open for ASP.net developers. The project will be in ASP.NET MVC4. 
 
-For additional information Visit http://code.msdn.microsoft.com/ASPNET-MVC-4-with-Bing-Maps-947ae78c
-Requirements
-To run the Souce Code you need Microsoft Visual Web Developer 2010 Express and MVC 4.
 
-To download MVC4, Download Microsoft Web Platform Installer.
